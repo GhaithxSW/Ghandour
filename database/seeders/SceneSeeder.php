@@ -16,21 +16,18 @@ class SceneSeeder extends Seeder
         Scene::create([
             'name' => 'First Scene',
             'category_id' => 1,
-            'game_id' => 1,
             'scene_unity_id' => 1,
         ]);
 
         Scene::create([
             'name' => 'Second Scene',
             'category_id' => 2,
-            'game_id' => 2,
             'scene_unity_id' => 2,
         ]);
 
         Scene::create([
             'name' => 'Third Scene',
             'category_id' => 3,
-            'game_id' => 3,
             'scene_unity_id' => 3,
         ]);
     }
